@@ -79,5 +79,3 @@ The project repository will have the following structure:
 
 ## Conclusion
 This data analytics project demonstrates how ETL can be used to process and load supply chain data into Snowflake, followed by creating an interactive and informative dashboard using Power BI. The dashboard will empower users to analyze the supply chain metrics effectively and make informed decisions to enhance the overall efficiency of the supply chain process.
-
-"# Supply-Chain-Analytics" 
