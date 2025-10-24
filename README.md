@@ -1,6 +1,6 @@
 # 🏭 Supply Chain Analytics Dashboard
 
-![Supply Chain Overview](imgs/intro.png)
+![Supply Chain Overview](imgs/intro.jpg)
 
 ## 📘 Overview
 
