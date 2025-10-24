@@ -105,13 +105,8 @@ Supply-Chain-Analytics/
 
 ---
 
-## 🧩 Conclusion
+## Conclusion
 
 This project illustrates how a modern data pipeline can be built to handle and analyze supply chain data efficiently.
 By combining **Python ETL**, **Snowflake**, and **Power BI**, it provides a scalable and interactive solution for real-time decision-making and performance optimization across the supply chain.
 
----
-
-### 💡 Tech Stack
-
-**Python** | **Pandas** | **Snowflake** | **Power BI** | **SQL** | **ETL Pipeline**

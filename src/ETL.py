@@ -1,7 +1,6 @@
 # Importing libraries
 import pandas as pd
 import snowflake.connector
-# from snowflake_utils import snowflake_details
 
 import os
 from dotenv import load_dotenv
@@ -21,6 +20,8 @@ snowflake_details = {
 # Extract data from files
 supply_chain_df = pd.read_excel('../data/raw/supply_chain_data.xlsx')
 
+# ----- Transform data -----
+
 # Transform the data
 transformed_data = supply_chain_df.dropna()
 transformed_data = transformed_data[transformed_data["Customer demographics"] != "Unknown"]
@@ -34,6 +35,8 @@ snowflake_credentials = snowflake_details
 # Name of the target table in Snowflake
 target_table_name = "SUPPLY_CHAIN_TABLE"
 csv_file_path = '../data/processed/processed_data.csv'
+
+# ----- Load data into Snowflake -----
 
 # Stage the local file into Snowflake staging area
 staging_area = snowflake_credentials['staging_area']  # Replace with the appropriate staging area location in Snowflake
